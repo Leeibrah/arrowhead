@@ -1,0 +1,10 @@
+/* TEAM */
+    The project has been developed by the contribution of the following people
+
+	Lee Ibrahim
+	Contact: leeibrah [at] gmail [dot] com
+	Twitter: @leeibrah
+	Website: https://resavi.com
+	From: Nairobi, Kenya
+
+/* THANKS */
