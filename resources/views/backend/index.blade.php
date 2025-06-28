@@ -28,7 +28,7 @@
             </x-backend.section-header>
 
             <!-- Dashboard Content Area -->
-
+            <livewire:users-index />
             <!-- / Dashboard Content Area -->
         </div>
     </div>

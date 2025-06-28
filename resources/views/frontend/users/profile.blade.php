@@ -5,7 +5,7 @@
 @endsection
 
 @section("content")
-    <div class="mx-auto grid max-w-7xl grid-cols-1 gap-4 px-4 py-10 sm:grid-cols-3 sm:px-6">
+    <div class="mx-auto grid max-w-7xl grid-cols-1 gap-4 px-4 py-10 pb-20 sm:grid-cols-3 sm:px-6">
         <div class="col-span-1">
             <div class="mb-8 text-center md:mb-0">
                 <img
@@ -20,13 +20,13 @@
                     <p>
                         {{ $$module_name_singular->address }}
                     </p>
-                    <a
+                    <!-- <a
                         class="text-blue-800 hover:text-gray-800"
                         href="{{ route("frontend.users.profile", $$module_name_singular->username) }}"
                         target="_blank"
                     >
                         {{ str_replace(["http://", "https://"], "", route("frontend.users.profile", $$module_name_singular->username)) }}
-                    </a>
+                    </a> -->
                     @if ($$module_name_singular->url_website)
                         <a
                             class="text-blue-800 hover:text-gray-800"

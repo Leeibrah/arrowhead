@@ -12,7 +12,7 @@
                             <th>{{ __("labels.backend.users.fields.status") }}</th>
                             <th>{{ __("labels.backend.users.fields.roles") }}</th>
                             <th>{{ __("labels.backend.users.fields.permissions") }}</th>
-                            <th>{{ __("labels.backend.users.fields.social") }}</th>
+                            <!-- <th>{{ __("labels.backend.users.fields.social") }}</th> -->
 
                             <th class="text-end">{{ __("labels.backend.action") }}</th>
                         </tr>
@@ -30,7 +30,7 @@
                                 <td>{{ $user->email }}</td>
                                 <td>
                                     {!! $user->status_label !!}
-                                    {!! $user->confirmed_label !!}
+                                    {{--{!! $user->confirmed_label !!}--}}
                                 </td>
                                 <td>
                                     @if ($user->getRoleNames()->count() > 0)
@@ -55,16 +55,11 @@
                                         </ul>
                                     @endif
                                 </td>
-                                <td>
+                                <!-- <td>
                                     <ul class="list-unstyled">
-                                        @foreach ($user->providers as $provider)
-                                            <li>
-                                                <i class="fab fa-{{ $provider->provider }}"></i>
-                                                {{ label_case($provider->provider) }}
-                                            </li>
-                                        @endforeach
+                                        Socials
                                     </ul>
-                                </td>
+                                </td> -->
 
                                 <td class="text-end">
                                     <a

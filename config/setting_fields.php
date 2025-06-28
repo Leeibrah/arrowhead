@@ -32,7 +32,7 @@ return [
                 'label' => 'Footer Text', // you know what label it is
                 'rules' => 'required|min:2', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => '<a href="https://resavi.com/" class="text-muted">Built with ♥ by Resavi.</a>', // default value if you want
+                'value' => 'Built with ♥ by Resavi.', // default value if you want
             ],
             [
                 'type' => 'checkbox', // input fields type

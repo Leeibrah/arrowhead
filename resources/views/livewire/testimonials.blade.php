@@ -5,7 +5,7 @@
 	  font-family: sans-serif;
 	}
 
-/*	.submitted-message .title {
+	/*.submitted-message .title {
 	  font-weight: 900;
 	  font-size: 2rem;
 	  margin-bottom: 20px;
@@ -75,12 +75,9 @@
 				Our team is reviewing it and will reach out soon with life insurance options tailored to you.
 			</p>
   
-            
-
         </div>
     </section>
 
-    <!-- <x-frontend.header-block :title="$title" /> -->
 
     <section class="mx-auto max-w-screen-xl bg-white text-gray-600">
         <div class="grid grid-cols-1">
