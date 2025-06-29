@@ -10,8 +10,9 @@
                             <th>{{ __("labels.backend.users.fields.name") }}</th>
                             <th>{{ __("labels.backend.users.fields.email") }}</th>
                             <th>{{ __("labels.backend.users.fields.mobile") }}</th>
+                            <th>{{ __("labels.backend.users.fields.status") }}</th>
                             <th>{{ __("labels.backend.users.fields.roles") }}</th>
-                    
+                            <th>{{ __("labels.backend.users.fields.permissions") }}</th>
 
                             <th class="text-end">{{ __("labels.backend.action") }}</th>
                         </tr>
@@ -27,9 +28,10 @@
                                     </strong>
                                 </td>
                                 <td>{{ $user->email }}</td>
+                                <td>{{ $user->mobile }}</td>
                                 <td>
-                                    {!! $user->mobile !!}
-                                    {{--{!! $user->confirmed_label !!}--}}
+                                    {!! $user->status_label !!}
+                                    {!! $user->confirmed_label !!}
                                 </td>
                                 <td>
                                     @if ($user->getRoleNames()->count() > 0)
@@ -45,8 +47,16 @@
                                         </ul>
                                     @endif
                                 </td>
-                  
-                  
+                                <td>
+                                    @if ($user->getAllPermissions()->count() > 0)
+                                        <ul>
+                                            @foreach ($user->getDirectPermissions() as $permission)
+                                                <li>{{ $permission->name }}</li>
+                                            @endforeach
+                                        </ul>
+                                    @endif
+                                </td>
+              
 
                                 <td class="text-end">
                                     <a

@@ -29,6 +29,7 @@
 
             <!-- Dashboard Content Area -->
             <livewire:users-index />
+            {{-- <livewire:users-admin /> --}]
             <!-- / Dashboard Content Area -->
         </div>
     </div>

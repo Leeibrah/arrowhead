@@ -22,7 +22,8 @@
                 :module_action="$module_action"
             />
 
-            <livewire:users-index />
+            {{-- <livewire:users-index /> --}}
+            <livewire:users-admin />
         </div>
         <div class="card-footer"></div>
     </div>
