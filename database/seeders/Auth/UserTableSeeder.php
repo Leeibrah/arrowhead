@@ -24,54 +24,15 @@ class UserTableSeeder extends Seeder
         $users = [
             [
                 'id' => 1,
-                'username' => '100001',
+                'username' => 'superadmin',
                 'name' => 'Super Admin',
-                'email' => 'super@admin.com',
-                'password' => 'secret',
+                'email' => 'super@j18challenge.com',
+                'password' => 'firstkicker',
                 'email_verified_at' => Carbon::now(),
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
-            [
-                'id' => 2,
-                'username' => '100002',
-                'name' => 'Admin Istrator',
-                'email' => 'admin@admin.com',
-                'password' => 'secret',
-                'email_verified_at' => Carbon::now(),
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-            ],
-            [
-                'id' => 3,
-                'username' => '100003',
-                'name' => 'Manager User',
-                'email' => 'manager@manager.com',
-                'password' => 'secret',
-                'email_verified_at' => Carbon::now(),
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-            ],
-            [
-                'id' => 4,
-                'username' => '100004',
-                'name' => 'Executive User',
-                'email' => 'executive@executive.com',
-                'password' => 'secret',
-                'email_verified_at' => Carbon::now(),
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-            ],
-            [
-                'id' => 5,
-                'username' => '100005',
-                'name' => 'General User',
-                'email' => 'user@user.com',
-                'password' => 'secret',
-                'email_verified_at' => Carbon::now(),
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-            ],
+  
         ];
 
         foreach ($users as $user_data) {

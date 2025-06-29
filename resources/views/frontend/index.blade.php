@@ -54,7 +54,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -1.6rem;
+    bottom: -1.6.5rem;
     width: 0;
     height: 0;
     border-left: 28px solid transparent;
