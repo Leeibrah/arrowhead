@@ -119,6 +119,18 @@
 			          ></iframe>
 			        </div>
 			      </div>
+			      
+			      <div class="video-card">
+			        <div class="video-wrapper">
+			          <iframe
+			            src="https://www.youtube.com/embed/7cauB4VMMbM"
+			            title="YouTube video"
+			            frameborder="0"
+			            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			            allowfullscreen
+			          ></iframe>
+			        </div>
+			      </div>
 			    </div>
 			  </div>
 			</section>
