@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\Frontend\FrontendController;
 use App\Http\Controllers\LanguageController;
+use App\Livewire\About;
+
 use App\Livewire\Privacy;
 use App\Livewire\Terms;
 use App\Livewire\Testimonials;
@@ -32,6 +34,10 @@ Route::get('language/{language}', [LanguageController::class, 'switch'])->name('
 Route::get('dashboard', 'App\Http\Controllers\Frontend\FrontendController@index')->name('dashboard');
 
 // pages
+Route::get('about', [FrontendController::class, 'about'])->name('about');
+Route::get('contact', [FrontendController::class, 'contact'])->name('contact');
+
+
 Route::get('terms', Terms::class)->name('terms');
 Route::get('privacy', Privacy::class)->name('privacy');
 Route::get('testimonials', Testimonials::class)->name('testimonials');

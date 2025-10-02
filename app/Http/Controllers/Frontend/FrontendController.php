@@ -11,8 +11,18 @@ class FrontendController extends Controller
      *
      * @return \Illuminate\Contracts\View\View
      */
-    public function index()
-    {
+    public function index(){
+        
         return view('frontend.index');
+    }
+
+    public function about(){
+
+        return view('frontend.pages.about');
+    }
+
+    public function contact(){
+
+        return view('frontend.pages.contact');
     }
 }
