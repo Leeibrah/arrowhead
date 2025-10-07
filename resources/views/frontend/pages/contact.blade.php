@@ -130,45 +130,54 @@
                         <div class="tp-contact-4__contact-form">
                             <h5>Drop Us a Line</h5>
                             <span>Your email address will not be published. Required fields are marked *</span>
+
                             <div class="row">
-                                <div class="col-xl-6 mb-30">
-                                    <div class="tp-contact-4__input-box">
-                                        <input type="text" placeholder="Enter your name*">
-                                    </div>
-                                </div>
-                                <div class="col-xl-6 mb-30">
-                                    <div class="tp-contact-4__input-box">
-                                        <input type="text" placeholder="Enter your mail*">
-                                    </div>
-                                </div>
-                                <div class="col-xl-6 mb-30">
-                                    <div class="tp-contact-4__input-box">
-                                        <input type="text" placeholder="Enter your number*">
-                                    </div>
-                                </div>
-                                <div class="col-xl-6 mb-30">
-                                    <div class="tp-contact-4__input-box">
-                                        <input type="text" placeholder="website*">
-                                    </div>
-                                </div>
-                                <div class="col-xl-12">
-                                    <div class="tp-contact-4__textarea-box">
-                                        <textarea placeholder="Enter your Massage*"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-xl-12 col-lg-12">
-                                    <div class="tp-contact-4__comment-agree pt-40 pb-55">
-                                        <div class="form-check-box">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                            <label class="form-check-label text-theme" for="flexCheckDefault">
-                                                Save my name, email, and website in this browser for the next time I comment.
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="tp-contact-4__btn">
-                                        <button type="submit" class="tp-btn-square" >post a comment</button>
-                                    </div>
-                                </div>
+                            	<form method="post" action="{!! route('postContacts') !!}" id="contact-form">
+                            		{!! csrf_field() !!}
+	                                <div class="col-xl-12 mb-30">
+	                                    <div class="tp-contact-4__input-box">
+	                                        <input type="text" name="name"  placeholder="Enter your full name*" required>
+	                                    </div>
+	                                </div>
+	                                
+	                                <div class="col-xl-12 mb-30">
+	                                    <div class="tp-contact-4__input-box">
+	                                        <input type="text" name="phone" placeholder="Enter your phone number*" required>
+	                                    </div>
+	                                </div>
+
+	                                <div class="col-xl-12 mb-30">
+	                                    <div class="tp-contact-4__input-box">
+	                                        <input type="text" name="email"  placeholder="Enter your email address*" required>
+	                                    </div>
+	                                </div>
+
+	                                <div class="col-xl-12 mb-30">
+	                                    <div class="tp-contact-4__input-box">
+	                                        <input type="text"  name="subject" placeholder="Subject*" required>
+	                                    </div>
+	                                </div>
+
+	                                <div class="col-xl-12">
+	                                    <div class="tp-contact-4__textarea-box">
+	                                        <textarea name="message" placeholder="Enter your Massage*" required></textarea>
+	                                    </div>
+	                                </div>
+
+	                                <div class="col-xl-12 col-lg-12">
+	                                    <!-- <div class="tp-contact-4__comment-agree pt-40 pb-55">
+	                                        <div class="form-check-box">
+	                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+	                                            <label class="form-check-label text-theme" for="flexCheckDefault">
+	                                                Save my name, email, and website in this browser for the next time I comment.
+	                                            </label>
+	                                        </div>
+	                                    </div> -->
+	                                    <div class="tp-contact-4__btn">
+	                                        <button type="submit" class="tp-btn-square" >SUBMIT</button>
+	                                    </div>
+	                                </div>
+                            	</form>
                             </div>
                         </div>
                     </div>

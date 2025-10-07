@@ -2,7 +2,7 @@
     <!-- footer-area-start -->
     <div class="tp-footer__area tp-footer__space p-relative grey-bg pb-80">
         <div class="tp-footer__shape d-none d-lg-block">
-            <img src="assets/img/footer/shape-1-1.png" alt="">
+            <img src="/assets/img/footer/shape-1-1.png" alt="">
         </div>
         <div class="container">
             <div class="row">
@@ -11,7 +11,7 @@
                     <div class="tp-footer__widget z-index footer-col-1">
                         <div class="tp-footer__logo">
                             <a href="index.html">
-                                <img src="assets/img/logo/logo.png" alt="">
+                                <img src="/assets/img/logo/logo.png" alt="">
                             </a>
                         </div>
                         <div class="tp-footer__text">
@@ -69,15 +69,15 @@
                 <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 mb-30 wow tpfadeUp" data-wow-duration=".9s"
                     data-wow-delay=".5s">
                     <div class="tp-footer__widget footer-col-2">
-                        <h4 class="tp-footer__widget-title">Navigation</h4>
+                        <h4 class="tp-footer__widget-title">Links</h4>
                         <div class="tp-footer__list">
                             <ul>
-                                <li><a href="index.html#">Damo page</a></li>
-                                <li><a href="index.html#">About</a></li>
-                                <li><a href="index.html#">Pricing Plan</a></li>
-                                <li><a href="index.html#">Integrations</a></li>
-                                <li><a href="index.html#">Blog</a></li>
-                                <li><a href="index.html#">Contact</a></li>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Who we Are</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -85,15 +85,15 @@
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30 wow tpfadeUp" data-wow-duration=".9s"
                     data-wow-delay=".7s">
                     <div class="tp-footer__widget footer-col-3">
-                        <h4 class="tp-footer__widget-title">Other Pages</h4>
+                        <h4 class="tp-footer__widget-title">Services</h4>
                         <div class="tp-footer__list">
                             <ul>
-                                <li><a href="index.html#">Features</a></li>
-                                <li><a href="index.html#">Team Member</a></li>
-                                <li><a href="index.html#">Our Careers</a></li>
-                                <li><a href="index.html#">Login Here</a></li>
-                                <li><a href="index.html#">Register</a></li>
-                                <li><a href="index.html#">404 Not found</a></li>
+                                <li><a href="#">Vehicle Graphics</a></li>
+                                <li><a href="#">Interior Signs</a></li>
+                                <li><a href="#">Exterior Signs</a></li>
+                                <li><a href="#">Letters & Logos</a></li>
+                                <li><a href="#">Industrial Signs</a></li>
+                                <li><a href="#">Architectural Signs</a></li>
                             </ul>
                         </div>
                     </div>
@@ -103,7 +103,7 @@
                     <div class="tp-footer__widget footer-col-4">
                         <h4 class="tp-footer__widget-title">Our Newsletter</h4>
                         <div class="tp-footer__form">
-                            <form action="index.html#">
+                            <form action="#">
                                 <input type="email" placeholder="Email Address">
                             </form>
                             <span class="tp-footer__input-icon">
@@ -131,8 +131,8 @@
                             </button>
                         </div>
                         <div class="tp-footer__thumb">
-                            <span>We Accepted:</span>
-                            <a href="index.html#"><img src="assets/img/footer/footer-1-1.png" alt=""></a>
+                            <span>Payments Accepted are:</span>
+                            <a href="#"><img src="/assets/img/footer/footer-main.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -149,17 +149,17 @@
                     <div
                         class="tp-copyright__wrapper d-flex align-items-center justify-content-sm-between justify-content-center">
                         <div class="tp-copyright__social-box d-none d-lg-block">
-                            <a href="index.html#"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="index.html#"><i class="fa-brands fa-vimeo-v"></i></a>
-                            <a href="index.html#"><i class="fa-brands fa-twitter"></i></a>
-                            <a href="index.html#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                         </div>
                         <div class="tp-copyright__text text-center">
                             <span>
-                                Design By 
+                                Website By 
                                 <i>
                                     <a href="https://www.mdigital.co.ke" target="_blank">
-                                        Mdigital
+                                        M-Digital
                                     </a>
                                 </i> – {{date('Y')}}
                             </span>
@@ -177,17 +177,17 @@
                                             </svg>
                                         </span>
                                     </a>
-                                    <ul class="tp-copyright__lang-submenu">
+                                    <!-- <ul class="tp-copyright__lang-submenu">
                                         <li>
-                                            <a href="index.html#">Arabic</a>
+                                            <a href="#">Arabic</a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">Spanish</a>
+                                            <a href="#">Spanish</a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">Mandarin</a>
+                                            <a href="#">Mandarin</a>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
                             </ul>
                         </div>

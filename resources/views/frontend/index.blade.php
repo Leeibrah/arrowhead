@@ -1,6 +1,6 @@
 @extends("frontend.layouts.app")
 
-@section("title")
+@section("page_title")
     {{ app_name() }}
 @endsection
 
@@ -33,7 +33,7 @@
                         <div class="tp-hero__left-box z-index">
                             <div class="tp-hero__section-box">
                                 <span class="tp-hero-subtitle wow tpfadeUp" data-wow-duration=".9s"
-                                    data-wow-delay=".3s">Digital printing Service</span>
+                                    data-wow-delay=".3s">Arrowhead Design & Printshop Solutions</span>
                                 <h3 class="tp-hero-title wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
                                     printing <span class="p-relative">Digital
                                         <span class="tp-slider-title-shape">
@@ -57,9 +57,10 @@
                             </div>
                             <div class="tp-hero__left-text wow tpfadeUp" data-wow-duration=".9s"
                                 data-wow-delay=".7s">
-                                <p>Beautiful, customizable template, with a ton of web blocks
-                                    to create an amazing website that looks</p>
-                                <a class="tp-main-btn" href="contact.html">Let’s talk — Send a message
+                                <p>
+                                    Your One-stop Printshop for your Graphic Design, Printing and Branding solution. Enhancing your Brand Visibility.
+                                </p>
+                                <a class="tp-main-btn" href="{{ route('contact') }}">Let’s talk — Send a message
                                     <i>
                                         <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -389,7 +390,7 @@
                                         </svg>
                                     </span>
                                 </span>
-                                Service Australia
+                                Service Kenya
                             </h4>
                             <p>Turn digital images into physical products with
                                 Printes – print locally, scale globally.</p>
@@ -871,7 +872,7 @@
             </div>
             <div class="col-xl-12">
                 <div class="tp-catagori__button text-center mt-70">
-                    <a class="tp-btn-gradiant" href="contact.html">
+                    <a class="tp-btn-gradiant" href="{{ route('contact') }}">
                         Let’s talk — Send a message
                         <i>
                             <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
@@ -917,7 +918,7 @@
                 </div>
                 <div class="col-xl-5 col-lg-5 col-md-6 d-none d-md-block">
                     <div class="tp-service__btn text-end">
-                        <a class="tp-main-btn" href="contact.html">Let’s talk — Send a message
+                        <a class="tp-main-btn" href="{{ route('contact') }}">Let’s talk — Send a message
                             <i>
                                 <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -1553,14 +1554,14 @@
                                         </svg>
                                     </span>
                                 </span>
-                                Service Australia
+                                Service Kenya
                             </h3>
                         </div>
                         <div class="tp-testimonial__button">
                             <p>Beautiful, customizable template, with a ton of
                                 blocks to create an amazing website that</p>
                             <div class="d-none d-md-block">
-                                <a class="tp-btn-lg" href="contact.html">Let’s talk — Send a message
+                                <a class="tp-btn-lg" href="{{ route('contact') }}">Let’s talk — Send a message
                                     <i>
                                         <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -1763,7 +1764,7 @@
     <!-- brand-area-end -->
 
     <!-- blog-area-start -->
-    <div class="tp-blog__area pt-90 pb-10">
+    <!-- <div class="tp-blog__area pt-90 pb-10">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -1852,7 +1853,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- blog-area-end -->
 
     <!-- cta-area-start -->

@@ -50,7 +50,7 @@
                     <div class="col-xxl-4 col-xl-5 d-none d-xl-block">
                         <div class="tp-header-top__shop-box text-xl-start text-end">
                             <span>Free shipping on all U.S. orders $50+</span>
-                            <a href="index.html#">Shop Now</a>
+                            <a href="{{ route('home') }}#">Shop Now</a>
                         </div>
                     </div>
                     <div class="col-xxl-4 col-xl-3 col-lg-6 col-md-6  col-sm-6 d-none d-sm-block">
@@ -83,8 +83,8 @@
                                 </button>
                             </div>
                             <div class="tp-header__logo">
-                                <a href="index.html">
-                                    <img src="assets/img/logo/logo.png" alt="Logo" style="max-width:150%">
+                                <a href="{{ route('home') }}">
+                                    <img src="/assets/img/logo/logo.png" alt="Logo" style="max-width:150%">
                                 </a>
                             </div>
                         </div>
@@ -95,16 +95,71 @@
                                 <ul>
                                     <li class="has-dropdown">
                                         <li>
-                                            <a href="{{ route('home') }}">Home</a>
+                                            <a href="{{ route('home') }}">HOME</a>
                                         </li>
                                         <li>
-                                            <a href="{{ route('about') }}">about</a>
+                                            <a href="{{ route('about') }}">WHO WE ARE</a>
                                         </li>
-                                        <li>
+                                        <!-- <li>
                                             <a href="#">Services</a>
+                                        </li> -->
+                                        <li class="has-dropdown">
+                                            <a href="#">SERVICES</a>
+                                            <ul class="submenu tp-submenu">
+                                                <li>
+                                                    <a href="{{ route('services.vehicle-graphics') }}">
+                                                        VEHICLE GRAPHICS
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ route('services.shop-front-signs') }}">
+                                                        SHOP FRONT SIGNS
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ route('services.industrial-signs') }}">
+                                                        INDUSTRIAL SIGNS
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ route('services.interior-signs') }}">
+                                                        INTERIOR SIGNS
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ route('services.letters-logos') }}">
+                                                        LETTERS AND LOGOS
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ route('services.point-of-sale') }}">
+                                                        POINT OF SALE
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ route('services.architectural-signs') }}">      
+                                                        ARCHITECTURAL SIGNS
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ route('services.exterior-signs') }}">
+                                                        EXTERIOR SIGNS
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ route('services.business-stationary') }}">
+                                                        BUSINESS STATIONARY
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ route('services.internal-decoration') }}">
+                                                        INTERNAL DECORATION
+                                                    </a>
+                                                </li>
+                                            </ul>
                                         </li>
                                         <li>
-                                            <a href="{{ route('contact') }}">contacts</a>
+                                            <a href="{{ route('contact') }}">CONTACT US</a>
                                         </li>
                                         <!-- <li>
                                             <a href="about-us.html">about</a>
@@ -112,19 +167,19 @@
                                         <li>
                                             <a href="about-us.html">about</a>
                                         </li> -->
-                                        <!-- <a href="index.html">Home</a>
+                                        <!-- <a href="{{ route('home') }}">Home</a>
                                         <div class="tp-submenu submenu has-homemenu">
                                             <div class="row gx-6 row-cols-1 row-cols-md-2 row-cols-xl-5 row-cols-xxl-5">
                                                <div class="col homemenu">
                                                   <div class="homemenu-thumb mb-15">
                                                      <img src="assets/img/menu/home-1.jpg" alt="">
                                                      <div class="homemenu-btn">
-                                                        <a class="tp-menu-btn" href="index.html">View Demo</a>
+                                                        <a class="tp-menu-btn" href="{{ route('home') }}">View Demo</a>
                                                      </div>
                                                   </div>
                                                   <div class="homemenu-content text-center">
                                                      <h4 class="homemenu-title">
-                                                        <a href="index.html">Home 01</a>
+                                                        <a href="{{ route('home') }}">Home 01</a>
                                                      </h4>
                                                   </div>
                                                </div>
@@ -184,7 +239,7 @@
                                         </div>
                                     </li>
                                     <li class="has-dropdown">
-                                        <a href="index.html#">pages</a>
+                                        <a href="{{ route('home') }}#">pages</a>
                                         <ul class="submenu tp-submenu">
                                             <li><a href="team.html">Team</a></li>
                                             <li><a href="project.html">project</a></li>
@@ -226,7 +281,7 @@
                     <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-6">
                         <div class="tp-header__right-box d-flex align-items-center justify-content-end">
                             <ul class="d-none d-sm-block">
-                                <li>
+                                <!-- <li>
                                     <div class="tp-header__icon-box">
                                         <a href="login.html">
                                             <span>
@@ -247,7 +302,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="index.html#">
+                                        <a href="{{ route('home') }}#">
                                             <span class="heart p-relative">
                                                 <i class="fa-light fa-heart"></i>
                                                 <b class="tp-header__icon-text">0</b>
@@ -265,10 +320,10 @@
                                             </span>
                                         </a>
                                     </div>
-                                </li>
+                                </li> -->
                                 <li>
                                     <div class="tp-header__chat-box d-none d-xxl-block">
-                                        <a href="contact.html">
+                                        <a href="{{ route('contact') }}">
                                             Let,s Talk
                                             <span>
                                                 <svg width="23" height="23" viewBox="0 0 23 23" fill="none"

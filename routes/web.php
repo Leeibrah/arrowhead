@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Frontend\FrontendController;
+use App\Http\Controllers\Frontend\ServicesController;
 use App\Http\Controllers\LanguageController;
 use App\Livewire\About;
 
@@ -36,11 +37,28 @@ Route::get('dashboard', 'App\Http\Controllers\Frontend\FrontendController@index'
 // pages
 Route::get('about', [FrontendController::class, 'about'])->name('about');
 Route::get('contact', [FrontendController::class, 'contact'])->name('contact');
+Route::post('contacts', ['as' => 'postContacts', 'uses' => 'App\Http\Controllers\Frontend\FrontendController@postContacts']);
+// Route::post("contacts", "FrontendController@store")->name("contact.store");
 
 
 Route::get('terms', Terms::class)->name('terms');
 Route::get('privacy', Privacy::class)->name('privacy');
 Route::get('testimonials', Testimonials::class)->name('testimonials');
+
+Route::group(['namespace' => 'App\Http\Controllers\Frontend', 'as' => 'services.'], function () {
+    Route::get('/', 'ServicesController@index')->name('index');
+    Route::get('services/architectural-signs', 'ServicesController@architecturalSigns')->name('architectural-signs');
+    Route::get('services/business-stationary', 'ServicesController@businessStationary')->name('business-stationary');
+    Route::get('services/exterior-signs', 'ServicesController@exteriorSigns')->name('exterior-signs');
+    Route::get('services/industrial-signs', 'ServicesController@industrialSigns')->name('industrial-signs');
+    Route::get('services/interior-signs', 'ServicesController@interiorSigns')->name('interior-signs');
+    Route::get('services/internal-decoration', 'ServicesController@internalDecoration')->name('internal-decoration');
+    Route::get('services/letters-logos', 'ServicesController@lettersLogos')->name('letters-logos');
+    Route::get('services/point-of-sale', 'ServicesController@pointOfSale')->name('point-of-sale');
+    Route::get('services/shop-front-signs', 'ServicesController@shopFrontSigns')->name('shop-front-signs');
+    Route::get('services/vehicle-graphics', 'ServicesController@vehicleGraphics')->name('vehicle-graphics');
+
+});
 
 Route::group(['namespace' => 'App\Http\Controllers\Frontend', 'as' => 'frontend.'], function () {
     Route::get('/', 'FrontendController@index')->name('index');
