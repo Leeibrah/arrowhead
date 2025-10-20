@@ -73,8 +73,9 @@
                     </a>
                 </div>
                 <div class="tpoffcanvas__title">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima incidunt eaque a cumque, porro maxime
-                        autem sed.</p>
+                    <p>
+                        Your One-stop Printshop for your Graphic Design, Printing and Branding solution. Enhancing your Brand Visibility
+                    </p>
                 </div>
                 <div class="tp-main-menu-mobile d-xl-none"></div>
                 <div class="tpoffcanvas__contact-info">
@@ -90,15 +91,15 @@
                         </li>
                         <li>
                             <i class="fas fa-envelope"></i>
-                            <a href="mailto:arrowheadkenya@gmail.com">arrowheadkenya@gmail.com</a>
+                            <a href="mailto:cmmuriuki@gmail.com">cmmuriuki@gmail.com</a>
                         </li>
                         <li>
                             <i class="fal fa-phone-alt"></i>
-                            <a href="tel:+254 715 555 223">+254 715 555 223</a>
+                            <a href="tel:+254 722 206 268">+254 722 206 268</a>
                         </li>
                     </ul>
                 </div>
-                <div class="tpoffcanvas__input">
+                <!-- <div class="tpoffcanvas__input">
                     <div class="tpoffcanvas__input-title">
                         <h4>Get UPdate</h4>
                     </div>
@@ -110,13 +111,18 @@
                             </button>
                         </div>
                     </form>
-                </div>
+                </div> -->
                 <div class="tpoffcanvas__social">
                     <div class="social-icon">
-                        <a href="index.html#"><i class="fab fa-twitter"></i></a>
-                        <a href="index.html#"><i class="fab fa-instagram"></i></a>
-                        <a href="index.html#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="index.html#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="https://www.facebook.com/arrowheadprintshop" target="_blank">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/arrowheadkenya/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://x.com/Arrowheadkenya" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
                     </div>
                 </div>
             </div>
