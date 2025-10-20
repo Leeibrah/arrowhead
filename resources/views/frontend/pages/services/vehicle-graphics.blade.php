@@ -14,7 +14,7 @@
                 <div class="col-xl-12">
                     <div class="tp-project__details-wrapper">
                         <div class="tp-project__details-thumb mb-55">
-                            <img class="w-100" src="/assets/img/project/pro-1-1.jpg" alt="">
+                            <img class="w-100" src="/assets/img/service/vehicle-banner.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -24,12 +24,15 @@
                             <h5 class="tp-project__details-title">
                                 Vehicle Graphics
                             </h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat qui ducimus illum modi?  perspiciatis <br>
-                                accusamus soluta perferendis, ad illum, nesciunt, reiciendis iusto et cupidit Repudiandae provident to <br>
-                                consectetur, sapiente, libero iure necessitatibus corporis nulla voluptate, quisquam aut perspiciatis? <br>
-                                Fugiat labore aspernatur eius, perspiciatis ut molestiae, delectus rem.</p>
+                            <p>
+                                On average a busy vehicle can be seen by up to 3000 people every hour so why not utilise the space. We consider the process of vehicle livery design and application to be a very important aspect of your companies advertising potential. With the advent of recent technologies vehicle graphic capabilities are limitless and provide an excellent way to reach out to new customers and also show-off your companies identity. 
+                                <br/><br/>
+                                We provide vehicle liveries for all sizes of vans, lorries, curtain sided vehicles, and buses and have the full range of commercial vehicles on file you give us the design idea or let us design your vehicle graphics. See the design on your vehicle before you decide with a full colour to-scale proof and work along side our designers in the studio. Be it a simply logo application or a full vehicle wrap the same emphasis on customer satisfaction is applied to ensure that you will not only come back time after time but will recommend our service to colleagues and friends alike. 
+                                <br/><br/>
+                                Your vehicle graphics can be fitted in our workshop or at your premises (providing facilities are capable). We also specialise in accident damaged vehicles and body shop repair work, so if you are looking for a match on an old livery whether produced by us originally or not, we have the equipment in place to cater to all autobody livery repairs and replacement, we already service many local garages throughout the Midlands including, Autofix Derby, TC Harrison, Paramount Derby, ADR Repair Centre (Derby & Notts) & Just Car Clinics.
+                            </p>
                         </div>
-                        <div class="tp-project__details-content mb-40">
+                        <!-- <div class="tp-project__details-content mb-40">
                             <h5 class="tp-project__details-title">DIGITAL MARKETING</h5>
                             <p class="pb-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat qui ducimus illum modi?  perspiciatis <br>
                                 accusamus soluta perferendis, ad illum, nesciunt, reiciendis iusto et cupidit Repudiandae provident to <br>
@@ -49,7 +52,7 @@
                                 <li><i class="fas fa-check"></i> Downloadable lectures, code and design assets for all projects</li>
                                 <li><i class="fas fa-check"></i>Anyone who is finding a chance to get the promotion</li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 
@@ -61,46 +64,33 @@
                         <div class="tp-project__wrapper p-relative">
                             <div class="swiper-container tp-project__details-active">
                                 <div class="swiper-wrapper">
+                  
                                     <div class="swiper-slide">
                                         <div class="tp-project__item">
                                             <div class="tp-project__thumb p-relative">
-                                                <img class="w-100" src="/assets/img/project/project1.jpg" alt="">
+                                                <img class="w-100" src="/assets/img/service/vehicle-01.png" alt="">
                                                 <div class="tp-project__shape">
                                                     <img  src="/assets/img/team/shape-1-1.png" alt="">
                                                 </div>
                                             </div>
-                                            <div class="tp-project__content">
+                                            <!-- <div class="tp-project__content">
                                                 <h5 class="tp-project__title">Ceremony Worthy Of Time</h5>
                                                 <span>UI/UX & Development</span>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="tp-project__item">
                                             <div class="tp-project__thumb p-relative">
-                                                <img class="w-100" src="/assets/img/project/project2.jpg" alt="">
+                                                <img class="w-100" src="/assets/img/service/vehicle-02.png" alt="">
                                                 <div class="tp-project__shape">
                                                     <img  src="/assets/img/team/shape-1-1.png" alt="">
                                                 </div>
                                             </div>
-                                            <div class="tp-project__content">
+                                            <!-- <div class="tp-project__content">
                                                 <h5 class="tp-project__title">Ceremony Worthy Of Time</h5>
                                                 <span>UI/UX & Development</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="tp-project__item">
-                                            <div class="tp-project__thumb p-relative">
-                                                <img class="w-100" src="/assets/img/project/project3.jpg" alt="">
-                                                <div class="tp-project__shape">
-                                                    <img  src="/assets/img/team/shape-1-1.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="tp-project__content">
-                                                <h5 class="tp-project__title">Ceremony Worthy Of Time</h5>
-                                                <span>UI/UX & Development</span>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>

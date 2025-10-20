@@ -83,8 +83,9 @@
                     </div>
                     <div class="col-xl-6 col-lg-6">
                         <div class="tp-hero__thumb-box p-relative text-center text-lg-end">
-                            <img src="assets/img/hero/hero-1.png" alt="">
-                            <div class="tp-hero__shape-1 d-none d-xl-block">
+                            <!-- <img src="assets/img/hero/hero-1.png" alt=""> -->
+                            <img src="assets/img/about/tshirt.png" alt="">
+                            <!-- <div class="tp-hero__shape-1 d-none d-xl-block">
                                 <img src="assets/img/hero/hero-shape-1-1.png" alt="">
                             </div>
                             <div class="tp-hero__shape-2 d-none d-lg-block">
@@ -92,7 +93,7 @@
                             </div>
                             <div class="tp-hero__shape-3 d-none d-md-block">
                                 <img src="assets/img/hero/hero-shape-1-3.png" alt="">
-                            </div>
+                            </div> -->
                             <div class="tp-hero__shape-4 d-none d-md-block">
                                 <img src="assets/img/hero/hero-shape-1-4.png" alt="">
                             </div>
@@ -335,7 +336,7 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="tp-about__thumb-box">
                         <div class="tp-about__thumb">
-                            <img src="assets/img/about/about1-1.png" alt="">
+                            <img src="assets/img/about/home-02.png" alt="">
                         </div>
                         <div class="tp-about__thumb-text-box">
                             <div class="tp-about__thumb-text">
@@ -351,12 +352,12 @@
                         <div class="tp-about__shape-3">
                             <img src="assets/img/about/about-shape1-6.png" alt="">
                         </div>
-                        <div class="tp-about__shape-4 d-none d-xxl-block">
+                        <!-- <div class="tp-about__shape-4 d-none d-xxl-block">
                             <img src="assets/img/about/about-shape1-3.png" alt="">
                         </div>
                         <div class="tp-about__shape-5 d-none d-xxl-block">
                             <img src="assets/img/about/about-shape1-4.png" alt="">
-                        </div>
+                        </div> -->
                         <div class="tp-about__shape-6 d-none d-xxl-block">
                             <img src="assets/img/about/about-shape1-5.png" alt="">
                         </div>
@@ -1445,7 +1446,7 @@
                 <div class="row align-items-center">
                     <div class="col-xl-6 col-lg-6">
                         <div class="tp-business__left-thumb text-center text-lg-start">
-                            <img src="assets/img/business/business.png" alt="">
+                            <img src="assets/img/about/home-01.png" alt="">
                             <div class="tp-business__shape-1 d-none d-md-block">
                                 <img src="assets/img/business/shape-1-1.png" alt="">
                             </div>

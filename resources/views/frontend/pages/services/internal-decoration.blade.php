@@ -14,7 +14,7 @@
                 <div class="col-xl-12">
                     <div class="tp-project__details-wrapper">
                         <div class="tp-project__details-thumb mb-55">
-                            <img class="w-100" src="/assets/img/project/pro-1-1.jpg" alt="">
+                            <img class="w-100" src="/assets/img/service/internal-banner.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -24,32 +24,11 @@
                             <h5 class="tp-project__details-title">
                                 Internal Decoration
                             </h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat qui ducimus illum modi?  perspiciatis <br>
-                                accusamus soluta perferendis, ad illum, nesciunt, reiciendis iusto et cupidit Repudiandae provident to <br>
-                                consectetur, sapiente, libero iure necessitatibus corporis nulla voluptate, quisquam aut perspiciatis? <br>
-                                Fugiat labore aspernatur eius, perspiciatis ut molestiae, delectus rem.</p>
+                            <p>
+                                We specialise in large format posters, digital full colour PVC banners, canvas prints, self adhesive backlit prints, trade show printing for exhibitions and point of sale material.
+                            </p>
                         </div>
-                        <div class="tp-project__details-content mb-40">
-                            <h5 class="tp-project__details-title">DIGITAL MARKETING</h5>
-                            <p class="pb-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat qui ducimus illum modi?  perspiciatis <br>
-                                accusamus soluta perferendis, ad illum, nesciunt, reiciendis iusto et cupidit Repudiandae provident to <br>
-                                consectetur, sapiente, libero iure necessitatibus corporis nulla voluptate, quisquam aut perspiciatis? <br>
-                                Fugiat labore aspernatur eius, perspiciatis ut molestiae, delectus rem.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulv <br>
-                                inar dapibus leo. Ut enim ad minim veniam. when an unknown printer took a galley of type and scrambled <br>
-                                it to make a type specimen book.
-                                </p>
-                            <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <br>
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat. There are many variations of passages.</p>    
-                        </div>
-                        <div class="tp-project__details-list-box">
-                            <span>This event will allow participants to:</span>
-                            <ul>
-                                <li><i class="fas fa-check"></i>Business's managers, leaders</li>
-                                <li><i class="fas fa-check"></i> Downloadable lectures, code and design assets for all projects</li>
-                                <li><i class="fas fa-check"></i>Anyone who is finding a chance to get the promotion</li>
-                            </ul>
-                        </div>
+                        
                     </div>
                 </div>
                 
@@ -64,45 +43,26 @@
                                     <div class="swiper-slide">
                                         <div class="tp-project__item">
                                             <div class="tp-project__thumb p-relative">
-                                                <img class="w-100" src="/assets/img/project/project1.jpg" alt="">
+                                                <img class="w-100" src="/assets/img/service/internal-01.png" alt="">
                                                 <div class="tp-project__shape">
                                                     <img  src="/assets/img/team/shape-1-1.png" alt="">
                                                 </div>
                                             </div>
-                                            <div class="tp-project__content">
-                                                <h5 class="tp-project__title">Ceremony Worthy Of Time</h5>
-                                                <span>UI/UX & Development</span>
-                                            </div>
+                                    
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="tp-project__item">
                                             <div class="tp-project__thumb p-relative">
-                                                <img class="w-100" src="/assets/img/project/project2.jpg" alt="">
+                                                <img class="w-100" src="/assets/img/service/internal-02.png" alt="">
                                                 <div class="tp-project__shape">
                                                     <img  src="/assets/img/team/shape-1-1.png" alt="">
                                                 </div>
                                             </div>
-                                            <div class="tp-project__content">
-                                                <h5 class="tp-project__title">Ceremony Worthy Of Time</h5>
-                                                <span>UI/UX & Development</span>
-                                            </div>
+                                       
                                         </div>
                                     </div>
-                                    <div class="swiper-slide">
-                                        <div class="tp-project__item">
-                                            <div class="tp-project__thumb p-relative">
-                                                <img class="w-100" src="/assets/img/project/project3.jpg" alt="">
-                                                <div class="tp-project__shape">
-                                                    <img  src="/assets/img/team/shape-1-1.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="tp-project__content">
-                                                <h5 class="tp-project__title">Ceremony Worthy Of Time</h5>
-                                                <span>UI/UX & Development</span>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
                                 </div>
                             </div>
                             <div class="tp-project__details-arrow-box">
